@@ -182,7 +182,7 @@ int main( int argc, char *argv[] ) {
 		printf("	Password: In the case of auth type 2, this will hold the \r\n" );
 		printf("		plain text password.\r\n\r\n" );
 		printf("	Metric: The metric for RIP is \"hop count\". Which is the number of \r\n" );
-		printf("		routers between the target and the network.\r\n" );
+		printf("		routers between the target and the network.\r\n\r\n" );
 		printf("	Target: This will be the IP that the packet is send to \r\n" );
 		printf("		usually either a router, or a broadcast address. \r\n" );
 		

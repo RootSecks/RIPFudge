@@ -59,6 +59,7 @@ Options:
 
 	Metric: The metric for RIP is "hop count". Which is the number of 
 		routers between the target and the network.
+
 	Target: This will be the IP that the packet is send to 
 		usually either a router, or a broadcast address. 
 
