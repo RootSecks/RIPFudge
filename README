@@ -1,0 +1,67 @@
+RIP FUDGE - Andy Ralton
+<(-'.'-<) (>-'.'-)>
+
+Description:
+
+	RIPFuge is a simple application that can be used 
+	to generate RIP (Routing Information Protocol) Datagrams.
+	
+	The Routing Information Protocol is a routing protocol used
+	to propergate routes around a network. In it's earliest
+	implementation routers would spam the network with 
+	"updates" that contained all the routes in their routing table.
+	Later versions of the protocol added authentication as well as
+	classlessness (Subnetting) and request/response route updates.
+	It is the simplest routing protocol, however due to the fact
+	that it is extremley easy to use, it is still fairly prevelant.
+
+Usage: 
+
+	./ripfudge [ -aAVvcrsnNpmt ]
+		[ -a Address Family ]
+		[ -A Authentication Type ]
+		[ -v Version ]
+		[ -c Command ]
+		[ -r Route Tags ]
+		[ -s Subnet Mask ]
+		[-n Network IP Address (Destination Network) ]
+		[ -N Next Hop ]
+		[ -p Password ]
+		[ -m Metric (Hops) ]
+		[ -t Target (Usually either Router IP or Subnet Broadcast Address) ]
+
+Options: 
+
+	Address Family: This is the Network Layer Protocol.etc
+
+	Authentication Type: Type of authentication securing
+		RIP on the target router(s).
+
+	Version: This is the RIP version. RIPv1 or RIPv2.
+
+	Verbose: Display verbose program messages. 
+
+	Command: This is the RIP Command value, 2 for Response.
+
+	Route Tags: Optional Route Tags for RIPv2
+
+	Subnet Mask: The subnet mask is used to determine the host 
+		and network parts of the Network IP Address.
+
+	Network IP Address: The IP Address of the network 
+		you are descriping a route to.
+
+	Next Hop: This is the IP Address of the router which you 
+		want the route to point to.
+
+	Password: In the case of auth type 2, this will hold the 
+		plain text password.
+
+	Metric: The metric for RIP is "hop count". Which is the number of 
+		routers between the target and the network.
+	Target: This will be the IP that the packet is send to 
+		usually either a router, or a broadcast address. 
+
+License:
+	This application is provided under the GPL License,
+	please see the COPYING file for more details.
