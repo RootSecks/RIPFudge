@@ -11,7 +11,7 @@ Description:
 	implementation routers would spam the network with 
 	"updates" that contained all the routes in their routing table.
 	Later versions of the protocol added authentication as well as
-	classlessness (Subnetting) and request/response route updates.
+	classlessness (Subnetting) and a bunch of other features.
 	It is the simplest routing protocol, however due to the fact
 	that it is extremley easy to use, it is still fairly prevelant.
 

@@ -144,7 +144,7 @@ int main( int argc, char *argv[] ) {
         	printf("	implementation routers would spam the network with\r\n" );
         	printf("	\"updates\" that contained all the routes in their routing table.\r\n" );
         	printf("	Later versions of the protocol added authentication as well as\r\n" );
-        	printf("	classlessness (Subnetting) and request/response route updates.\r\n" );
+        	printf("	classlessness (Subnetting) and a bunch of other features.\r\n" );
         	printf("	It is the simplest routing protocol, however due to the fact\r\n" );
        		printf("	that it is extremley easy to use, it is still fairly prevelant.\r\n" );
 		
